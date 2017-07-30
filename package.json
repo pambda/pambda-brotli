@@ -1,0 +1,36 @@
+{
+  "name": "pambda-brotli",
+  "version": "0.0.1",
+  "description": "Serve pre-compressed contents with brotli",
+  "author": "Kengo Nakatsuka <kengo.nakatsuka@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/pambda/pambda-brotli/issues"
+  },
+  "dependencies": {
+    "caseless-get": "0.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.7.0"
+  },
+  "homepage": "https://github.com/pambda/pambda-brotli",
+  "keywords": [
+    "aws",
+    "brotli",
+    "lambda",
+    "pambda"
+  ],
+  "license": "MIT",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pambda/pambda-brotli.git"
+  },
+  "scripts": {
+    "prepare": "npm test",
+    "test": "tape test/test*.js"
+  },
+  "files": [
+    "README.md",
+    "lib/"
+  ]
+}
