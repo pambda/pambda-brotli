@@ -40,7 +40,7 @@ Run the following commands to make pre-compressed files:
 
 ``` shell
 # Install `bro` command in Mac
-brew install brotoli
+brew install brotli
 
 # Make a pre-compressed file
 bro --input path/to/original --output path/to/original.js
